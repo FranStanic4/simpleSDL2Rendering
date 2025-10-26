@@ -1,2 +1,3 @@
-rootProject.name = "SandyBox"
+rootProject.name = "idk"
+
 
