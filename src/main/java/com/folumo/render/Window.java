@@ -82,11 +82,11 @@ public class Window <T extends Screen<?>> {
     }
 
     public static class WindowOptions {
-        int w = 400;
-        int h = 400;
-        int fps = 60;
+        public int w = 400;
+        public int h = 400;
+        public int fps = 60;
 
-        String title = "Set title in WindowOptions.title";
-        @MagicConstant(flagsFromClass = SDL_WindowFlags.class) int SDL_FLAGS = SDL_WINDOW_SHOWN;
+        public String title = "Set title in WindowOptions.title";
+        public @MagicConstant(flagsFromClass = SDL_WindowFlags.class) int SDL_FLAGS = SDL_WINDOW_SHOWN;
     }
 }
